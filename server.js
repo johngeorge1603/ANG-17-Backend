@@ -7,7 +7,7 @@ const port = 3000;
 
 // Cors configuration - Allows requests from localhost:4200
 const corsOptions = {
-  origin: "http://localhost:4200",
+  origin: "https://cart-angular-17.vercel.app",
   optionsSuccessStatus: 204,
   methods: "GET, POST, PUT, DELETE",
 };
